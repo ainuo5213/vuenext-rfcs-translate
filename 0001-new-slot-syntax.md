@@ -25,9 +25,7 @@
 
 # 改动
 
-当我们首次引入作用域插槽时，因为它总是使用`<template slot-scope>`，就显得很冗余
-
-When we first introduced scoped slots, it was verbose because it required always using `<template slot-scope>`:
+当我们首次引入作用域插槽时，因为它总是使用`<template slot-scope>`，就显得很冗余：
 
 ``` html
 <foo>
