@@ -2,13 +2,11 @@
 
 统一普通插槽和作用域插槽。在V3版本中他们都是插槽而已
 
-Unify the concepts of normal vs. scoped slots. They are all just slots in v3.
-
 # 改动
 
 - 普通插槽和作用域插槽的分离是以后新概念的作用域插槽的结果，他们在2.x版本中有不同的内部实现。但是，这种不同在技术上是没必要的。将这两者统一起来可以简化插槽的总体概念。
 
-- 组件作者使用渲染函数不再担心同事处理`$slots`和`$scopedSlots`。
+- 组件作者使用渲染函数不再担心同时处理`$slots`和`$scopedSlots`。
 
 - 将所有插槽编译为函数在大型组件树中有更好的性能。
 
