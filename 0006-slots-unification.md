@@ -22,7 +22,6 @@
 - 实现统一：将所有插槽编译为函数。
   - 现在`this.$slots`以函数的形式暴露插槽。
   - 移除`this.$scopedSlots`。
-  - `this.$scopedSlots` removed.
   - 在2.x版本中，所有的插槽使用`v-slot`语法都在内部编译为了函数。`this.$scopedSlots`已经代理普通插槽并将他们暴露成了函数。
 
 ## 在渲染函数中使用
